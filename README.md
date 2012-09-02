@@ -1,4 +1,4 @@
-latex-cv
-========
+My resume in LaTeX
+==================
 
-my cv in latex file
+English version
