@@ -1,4 +1,5 @@
-latex-cv
-========
+Curriculum Vitae
+================
 
-my cv in latex file
+CV w formacie LaTeX. Po polsku.
+
