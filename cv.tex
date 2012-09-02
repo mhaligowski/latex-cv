@@ -1,0 +1,99 @@
+\documentclass[1pt,a4paper]{moderncv}
+
+% moderncv themes
+\moderncvtheme[blue]{classic}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+%\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+% personal data
+\firstname{Mateusz}
+\familyname{Haligowski}
+\title{Curriculum Vitae}               % optional, remove the line if not wanted
+\address{ul. Stawna 1C/45}{81-629 Gdynia}    % optional, remove the line if not wanted
+\mobile{+48\,503\,702\,923}                    % optional, remove the line if not wanted
+\email{mhaligowski@googlemail.com}                      % optional, remove the line if not wanted
+\homepage{http://www.technogaraz.pl}                % optional, remove the line if not wanted
+\extrainfo{http://github.com/halish}
+
+% to show numerical labels in the biblaphy; only useful if you make citations in your resume
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\section{Doświadczenie}
+\subsection{Zawodowe}
+\cventry{od X~2011}{Programista JEE}{SpeedNet sp. z o. o.}{Gdynia}{}{Biorę udział w projekcie o średnim rozmiarze z branży ubezpieczeniowej. Wykonuję zadania zarówno dotyczące warstwy klienta (Google Web Toolkit, MVP4g, Google Gin), jak i po stronie serwera (IBM WebSphere Application Server, JBoss, PostgreSQL, Oracle 10g, Google Guice, Hibernate). Byłem odpowiedzialny m.in. za migrację aplikacji ze środowiska JBoss/PostgreSQL na środowisko IBM WebSphere Application Server/Oracle 10g.}
+
+\cventry{I~2011 -- IX~2011}{Programista JEE}{Lufthansa Systems Poland/Hamburg S\"{u}d}{Gdańsk/Hamburg}{}{Jako programista JEE zatrudniony przez firmę Lufthansa Systems Poland wykonywałem pracę w Hamburgu, w firmie Hamburg S\"{u}d, jednym z największych przedsiębiorstw zajmujących się transportem morskim. Projekt polegał na wytworzeniu aplikacji do zarządzania flotą statków. W ramach tego projektu zajmowałem się implementacją przekazywania wiadomości między własną bazą danych a klientem zewnętrznym z wykorzystaniem technologii EJB oraz MDB na serwerze aplikacji OC4j i bazie danych Oracle 11g. Ponadto byłem odpowiedzialny za wdrożenie programu Arquillian, służącego do wykonywania testów jednostkowych w kontenerach JEE.}
+
+\cventry{II~2010 -- XII~2010}{Działalność gospodarcza}{Nostromo Labs}{Gdynia}{}{Próbowałem własnych sił jako przedsiębiorca, oferując usługi z dziedziny wytwarzania oprogramowania. Koncentrowałem się na aplikacjach typu  Internet Application z wykorzystaniem technologii Python (Django), Java (GWT), Ruby (Rails). Działalność zdecydowałem się zamknąć ze względu na niefortunnie podpisane umowy, brak zamówień oraz zbyt dużą ilość czasu poświęcaną na sprawy formalne.}
+
+\cventry{IX~2009 -- I~2010}{Programista JEE}{sprezentuj.pl}{Praca zdalna}{}{Pracowałem zdalnie jako programista Java w start-upie internetowym sprezentuj.pl, będącym internetową listą prezentów. Cechą charakterystyczną
+aplikacji był okienkowy interfejs użytkownika, wykonany za pomocą biblioteki GWT. Ponadto nauczyłem się również technologii Spring, Google Guice oraz Hibernate, wykorzystywanych w niższych warstwach.}
+
+\cventry{VI~2008 -- IX~2009}{Specjalista ds. Zarządzania Ryzykiem Kredytów Detalicznych}{Meritum Bank ICB S.A.}{Gdańsk}{}{W ramach pracy w banku zajmowałem się tworzeniem i rozwojem narzędzi wspierających system zarządzania ryzykiem kredytów detalicznych w banku, oceniającym zdolność kredytową klientów oraz komunikacją z podmiotami zewnętrznymi.Wśród wykonanych narzędzi należy wymienić kalkulator oceniający klientów (wykonany w języku programowania Python i języku zapytań SQL), system raportujący dane o klientach do Biura Informacji Kredytowej (wykonany w Javie i języku SQL) oraz systemy informujące o poszczególnych wskaźnikach
+(w języku SQL).}
+
+\cventry{VIII~2007 -- X~2007}{Praktykant}{Thomson Reuters}{Gdynia}{}{W ramach praktyk studenckich zajmowałem się weryfikacją pobranych danych makroekonomicznych.}
+
+\subsection{Kursy, szkolenia i certyfikaty}
+\cventry{XII~2010}{Szkolenie Adobe InDesign}{Poziom podstawowy}{Combidata}{Gdynia}{}{}
+\cventry{IX~2010}{Szkolenie Adobe Illustrator}{Poziom podstawowy}{Combidata}{Gdynia}{}{}
+\cventry{VII~2010}{Projektowanie graficzne w reklamie i publikacjach}{}{Combidata}{Gdynia}{}
+\cventry{VII~2007}{Oracle PL/SQL z elementami strojenia dla analityków danych}{}{Altkom Akademia}{Gdynia}{}
+\cventry{X~2006}{Sun Certified Java Programmer for Java 5}{}{}{}{}
+
+\subsection{Pozostałe doświadczenie}
+\cventry{X 2010}{prelegent}{PyConPL'2010}{}{}{Real-time internet applications in Python}{}
+\cventry{V~2008}{prelegent}{Konferencja ,,Metody numeryczne w naukach społecznych''}{Koło~Naukowe Metod Ilościowych na Wydziale~Zarządzania UG}{}{Python w zastosowaniach naukowych}{}
+\cventry{IV 2008}{prelegent}{RuPy'2008}{}{}{Scientific Applications of Python}{}
+\cventry{V~2007 -- VIII~2007}{uczestnik-student}{Google Summer Of Code 2007}{Scribus Team}{}{Brałem udział w rozwoju oprogramowania Open Source do elektronicznego składu publikacji Scribus, w ramach programu stypendialnego firmy Google. Projekt wtyczki służącej do impozycji wykonałem w języku C++, z wykorzystaniem biblioteki Qt.}{}
+
+\section{Wykształcenie}
+\cventry{X~2008 -- IX~2010}{studia magisterskie}{Politechnika Gdańska}{Wydział Elektroniki, Telekomunikacji i Informatyki}{kier. Informatyka}{Tytuł pracy magisterskiej: Szeregowanie zadań przy niepewnych parametrach
+(praca w jęz. angielskim), \tiny{\emph{w trakcie, planowany termin obrony: VI~2012}}}  % arguments 3 to 6 can be left empty
+\cventry{X~2008 -- IX~2010}{studia magisterskie}{Uniwersytet Gdański}{Wydział Zarządzania}{kier. Informatyka i Ekonometria, spec. Ekonometria i Statystyka}{Tytuł pracy magisterskiej: Analiza efektywności funduszy emerytalnych w latach 2002-2010, \tiny{\emph{w trakcie, planowany termin obrony: VI~2012}}}  % arguments 3 to 6 can be left empty
+\cventry{X~2005 -- IX~2008}{studia licencjackie}{Uniwersytet Gdański}{Wydział Zarządzania}{kier. Informatyka i Ekonometria, spec. Ekonometria i Statystyka}{Tytuł pracy licencjackiej: Analiza efektywności spółek giełdowych na wielu giełdach (praca w jęz. angielskim)}  % arguments 3 to 6 can be left empty
+\cventry{X~2005 -- VI~2006}{studium policealne}{English Unlimited}{Studium Tłumaczy Języka Angielskiego}{}{}{}
+\cventry{IX~2002 -- V~2005}{liceum ogólnokształcące}{III LO im. Marynarki Wojennej RP w Gdyni}{klasa o profilu matematyczno-informatycznym}{}{}{}
+
+\section{Języki obce}
+\cvlanguage{angielski}{biegły}{Certificate of Proficiency in English (C1), Test of English as a Foreign Language (99/120 pkt.)}
+\cvlanguage{niemiecki}{samodzielny}{Zertifikat Deutsch (B1)}
+
+\newpage{}
+
+\section{Umiejętności}
+\cvcomputer{Języki programowania}{Java, Python, C/C++, iOS, Javascript}{Narzędzia analityczne}{R, MatLab, Statistica, SPSS, SQL}
+\cvcomputer{Narzędzia graficzne}{Pakiet Scribus, Gimp, \LaTeX}{Środowiska programistyczne}{Eclipse, NetBeans, Emacs, vim, XCode, Komodo}
+\cvcomputer{Kontenery JEE}{IBM WebSphere AS, JBoss, Apache Geronimo, Apache Tomcat, OC4J, Glassfish, OpenEJB}{}{}
+
+\section{Zainteresowania}
+\cvline{Muzyka}{\small Gram na gitarze basowej w zespole bluesowym Turbocola.}
+\cvline{Książki}{\small Głównie fantasy i science-fiction, jednak chętnie sięgam również po inne gatunki.}
+\cvline{Elektronika}{\small W wolnym czasie chętnie zajmuję się elektroniką, głównie technologią mikroprocesorową z wykorzystaniem platformy Arduino.}
+\cvline{Nauka i nowe technologie}{\small Pasjonuję się każdym rodzajem nowych technologii i z chęcią czytam artykuły naukowe i książki popularno-naukowe.}
+\cvline{Analiza danych}{\small Jako absolwent kierunku ekonometria interesuję się również przetwarzaniem danych i ich analizą.} 
+
+\end{document}
+
+
+%% end of file `template_en.tex'.
