@@ -1,11 +1,11 @@
-\documentclass[1pt,a4paper]{moderncv}
+\documentclass[12pt,a4paper]{moderncv}
 
 % moderncv themes
 \moderncvtheme[blue]{classic}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
 
 % character encoding
 \usepackage[utf8]{inputenc}                   % replace by the encoding you are using
-
+\usepackage{hyperref}
 % adjust the page margins
 \usepackage[scale=0.8]{geometry}
 %\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
@@ -63,6 +63,7 @@ I also developed a worktime management plugin for a popular project management t
 \cventry{X~2006}{Sun Certified Java Programmer for Java 5}{}{}{}{}
 
 \subsection{Given speeches}
+\cventry{I~2013}{speaker}{tech.3camp.pl}{}{}{Big Data and Apache Hadoop(\href{http://www.3camp.pl/2013/01/film-przetwarzanie-big-data-w-chmurze-z-wykorzystaniem-apache-hadoop/}{video})}
 \cventry{XI 2012}{workshop leader}{3hack.pl}{}{}{Apache Hadoop all-day workshop}
 \cventry{X 2012}{speaker}{Trojmiasto Java User Group}{}{}{Apache Hadoop -- quick start (\url{http://mhaligowski.github.com/jug-hadoop-keynote})}
 \cventry{X 2010}{speaker}{PyConPL'2010}{}{}{Real-time internet applications in Python}{}
@@ -80,8 +81,6 @@ I also developed a worktime management plugin for a popular project management t
 \cventry{X~2005 -- VI~2006}{post-secondary college}{English Unlimited}{Translation study}{}{}{}
 \cventry{IX~2002 -- V~2005}{secondary school}{III LO im. Marynarki Wojennej RP in Gdynia, Poland}{class with
 an extended mathematics programme.}{}{}{}
-
-\newpage
 
 \section{Foreign languages}
 \cvlanguage{Polish}{native}{}
